@@ -1,0 +1,656 @@
+/* inmo.css - FIRSTBranch INMO */
+
+.hide {
+  display: none;
+}
+.clear {
+  clear: both;
+}
+/*=== reset =================================================================*/
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+caption,
+th {
+  text-align: left;
+}
+
+q:before {
+  content: "";
+}
+q:after {
+  content: "";
+}
+abbr,
+acronym {
+  border: 0;
+}
+
+/*=== type styles ===========================================================*/
+
+body {
+  font: normal 12px Tahoma, Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 0;
+}
+
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+p {
+  margin: 10px 0;
+}
+
+a img {
+  border: 0 none;
+}
+
+/*=== layout ===============================================================*/
+
+#content {
+  width: 912px;
+  margin: 0 auto;
+  position: relative;
+  height: 100%;
+}
+
+.pageContent {
+  position: relative;
+  z-index: 5;
+  margin: 10px 0;
+  float: left;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+/*=== content ==============================================================*/
+
+#sideBar {
+  width: 178px;
+  float: left;
+  display: inline;
+  position: relative;
+}
+
+#sideBar ol {
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+#sideBar ol li {
+  margin-left: 10px;
+  padding: 2px 0 2px 10px;
+}
+
+#sideBar ol.applicationSteps li.active {
+  font-weight: bold;
+}
+
+#mainContent {
+  padding: 0;
+  margin: 0;
+  width: 650px;
+  float: right;
+}
+
+/*=== Messages ==============================================================*/
+
+.fullPageMessage {
+  text-align: center;
+  font-size: 22px;
+  padding: 100px;
+  background-color: #fff;
+}
+
+.fullPageMessage p {
+  padding-bottom: 50px;
+}
+
+/*=== Intro   ==========================================================================*/
+
+#intro ul,
+#intro p,
+#intro h2 {
+  margin: 10px 0;
+}
+
+#intro h1 {
+  margin-bottom: 32px;
+}
+
+#intro ul,
+form.inmo-application ul.eligibilityRequirementList {
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+#intro ul li,
+form.inmo-application ul.eligibilityRequirementList li {
+  margin-left: 10px;
+  padding: 2px 0 2px 10px;
+  list-style: outside disc;
+  min-height: 0;
+}
+
+/* INMO styles */
+
+label,
+input,
+textarea {
+  display: block;
+}
+
+label {
+  margin-bottom: 3px;
+}
+
+input,
+textarea,
+select {
+  margin-bottom: 9px;
+}
+
+input.hidden {
+  width: 0;
+  margin: 0;
+  height: 0;
+  padding: 0;
+}
+
+.red {
+  color: #f00;
+}
+
+form,
+fieldset,
+input,
+textarea,
+p {
+  margin: 0;
+  padding: 0;
+}
+fieldset {
+  border: 0;
+}
+
+label,
+input,
+textarea {
+  display: block;
+}
+
+label {
+  margin-bottom: 3px;
+}
+
+input,
+textarea,
+select {
+  margin-bottom: 9px;
+}
+
+form.inmo-application {
+  clear: both;
+}
+
+form.inmo-application fieldset {
+  padding: 12px 0;
+}
+
+form.inmo-application fieldset fieldset {
+  padding: 0;
+}
+
+form.inmo-application h2 {
+  margin: 20px 0;
+  border-bottom: 1px solid #666;
+  padding-bottom: 2px;
+}
+
+form.inmo-application h2 input,
+form.inmo-application h2 label,
+form.inmo-application h2 span.note {
+  color: #666;
+  display: inline;
+  float: none;
+  font: normal 10px Tahoma, Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+form.inmo-application fieldset h2 a {
+  text-decoration: none;
+}
+
+form.inmo-application fieldset h2 a span {
+  text-decoration: underline;
+}
+
+form.inmo-application li {
+  list-style: none;
+  min-height: 20px;
+  padding-bottom: 8px;
+  clear: both;
+}
+
+form.inmo-application li label,
+form.inmo-application li h3 {
+  width: 160px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin: 0;
+  float: left;
+  text-align: right;
+  font: normal 12px Tahoma, Arial, Helvetica, sans-serif;
+}
+form.inmo-application li label.alignLeft {
+  text-align: left;
+}
+
+form.inmo-application li.inactive label {
+  color: #999;
+}
+
+form.inmo-application li input,
+form.inmo-application li fieldset,
+form.inmo-application li ul,
+form.inmo-application li select.fullWidth {
+  width: 240px;
+  float: left;
+  margin-bottom: 0;
+}
+
+form.inmo-application #electronicRecordsDisclosures li ul {
+  width: 100%;
+}
+
+form.inmo-application li select {
+  float: left;
+  margin-bottom: 0;
+}
+
+form.inmo-application li .subOptions {
+  padding: 4px 24px 8px;
+}
+
+form.inmo-application ul.radioWide li select,
+form.inmo-application ul.radio li label,
+form.inmo-application ul.radio li input {
+  float: none;
+  margin: 0 6px 0 0;
+  padding: 0;
+  display: inline;
+  vertical-align: middle;
+}
+
+form.inmo-application ul.radioWide li input {
+  float: left;
+}
+
+form.inmo-application ul.radioWide li label {
+  display: block;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+form.inmo-application li .help {
+  float: right;
+  width: 190px;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  min-height: 10px;
+}
+
+form.inmo-application li input#k-minCashDeposit,
+form.inmo-application li input#k-maxCashDeposit,
+form.inmo-application li input#k-minDeposit,
+form.inmo-application li input#k-maxDeposit {
+  width: 0;
+}
+
+/* help */
+
+form.inmo-application li .help span.error,
+form.inmo-application li .help span.success {
+  display: none;
+}
+
+form.inmo-application li .help span.default {
+  display: inline;
+}
+
+form.inmo-application li.error .help {
+  background: url(help-error.php) top left no-repeat;
+  color: #f00;
+}
+
+form.inmo-application li.error .help span.default,
+form.inmo-application li.error .help span.success {
+  display: none;
+}
+
+form.inmo-application li.error .help span.error {
+  display: inline;
+}
+
+form.inmo-application li.success .help {
+  background: url(help-ok.php) top left no-repeat;
+  color: #390;
+}
+
+form.inmo-application li.success .help span.error,
+form.inmo-application li.success .help span.default {
+  display: none;
+}
+
+form.inmo-application li.success .help span.success {
+  display: inline;
+}
+
+/* groups */
+
+form.inmo-application li input.group1,
+form.inmo-application li input.medium {
+  width: 54px;
+}
+
+form.inmo-application li .zipcode input.group1 {
+  width: 90px;
+}
+
+form.inmo-application li input.group2 {
+  width: 54px;
+}
+
+form.inmo-application li .ssn input.group2 {
+  width: 36px;
+}
+
+form.inmo-application li .zipcode input.group2 {
+  width: 72px;
+}
+
+form.inmo-application li input.group3 {
+  width: 72px;
+}
+
+form.inmo-application li span.separator {
+  float: left;
+  padding: 0 4px;
+}
+
+form.inmo-application li input.group4 {
+  width: 36px;
+}
+
+/* mixed */
+
+form.inmo-application li fieldset.mixed label {
+  float: left;
+  padding: 0 10px;
+  width: auto;
+}
+
+/* short */
+
+form.inmo-application li.short input {
+  width: 18px;
+}
+
+/* radio */
+
+form.inmo-application .radio {
+  padding-bottom: 4px;
+}
+
+form.inmo-application .radio li {
+  min-height: 16px;
+  padding-bottom: 4px;
+}
+
+form.inmo-application li .radio input,
+form.inmo-application li .radio label {
+  width: auto;
+  display: inline;
+  float: none;
+  vertical-align: middle;
+}
+
+form.inmo-application li .radio label {
+  padding-left: 4px;
+}
+
+/* date */
+
+form.inmo-application li .date select {
+  margin-right: 10px;
+}
+
+/* longPhone */
+
+form.inmo-application li .longPhone input.group2 {
+  width: 126px;
+}
+
+/* fund */
+
+form.inmo-application label.dollarAmount {
+  background: url(dollars.php) no-repeat 170px 4px;
+}
+
+form.inmo-application div.saverFund {
+  padding: 25px 0;
+  clear: both;
+}
+
+/* tax status */
+
+form.inmo-application li ul.radioWide {
+  width: 400px;
+}
+
+form.inmo-application li ul.radioNarrow {
+  padding-left: 180px;
+}
+
+form.inmo-application li ul.radioWide input,
+form.inmo-application li ul.radioNarrow input {
+  width: auto;
+}
+
+form.inmo-application li ul.radioWide label {
+  width: 350px;
+  text-align: left;
+  padding-right: 0;
+  padding-left: 10px;
+}
+
+form.inmo-application li ul.radioNarrow label {
+  width: 200px;
+  text-align: left;
+  padding-right: 0;
+  padding-left: 10px;
+}
+
+/* authorize */
+
+form.inmo-application a.edit {
+  display: block;
+  text-decoration: underline;
+  padding: 6px 0;
+  border: 1px solid #666;
+  background: #ccc;
+  color: #666;
+  font-size: 14px;
+  width: 120px;
+  text-align: center;
+  margin-left: 180px;
+  clear: both;
+}
+
+form.inmo-application dl.authorization dt {
+  width: 160px;
+  padding-right: 20px;
+  float: left;
+  text-align: right;
+  font: normal 12px Tahoma, Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+form.inmo-application dl.authorization dd {
+  float: left;
+  width: 300px;
+  padding-right: 150px;
+  margin-bottom: 10px;
+}
+
+/* verify */
+
+form.inmo-application ol.verification li h3 {
+  float: none;
+  text-align: left;
+  width: 600px;
+  padding: 0 0 10px 0;
+}
+
+form.inmo-application ol.verification li ul {
+  margin-left: 180px;
+  padding-bottom: 24px;
+  clear: left;
+  display: inline;
+}
+
+form.inmo-application ol.verification li ul li {
+  margin-left: 0;
+}
+
+form.inmo-application ol.verification li ul li input {
+  width: auto;
+  vertical-align: middle;
+  float: none;
+  display: inline;
+}
+
+form.inmo-application ol.verification li ul li label {
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: middle;
+  float: none;
+  display: inline;
+}
+
+form.inmo-application li.submit {
+  padding: 10px 0 25px 180px;
+}
+
+form.inmo-application li.submit input {
+  width: auto;
+}
+
+#footer {
+  padding: 10px 0;
+  text-align: center;
+}
+
+#recaptcha_response_field_group {
+  width: 320px !important;
+  float: left;
+}
+
+/* IAV section */
+.iavSection {
+  width: auto !important;
+}
+
+ul.cc-vendors-list {
+  overflow: hidden;
+  margin-left: 180px;
+}
+ul.cc-vendors-list li {
+  clear: none;
+  float: left;
+  margin: 10px;
+  transition: opacity 400ms;
+  -o-transition: opacity 400ms;
+  -moz-transition: opacity 400ms;
+  -webkit-transition: opacity 400ms;
+}
+ul.cc-vendors-list li.disabled {
+  opacity: 0.25;
+}
+ul.cc-vendors-list.image-replacement li {
+  list-style: none;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  width: 51px;
+  height: 32px;
+  background: url("../../../custom/fi/bvi/logos-credit-cards.png") 0 100px
+    no-repeat;
+}
+ul.cc-vendors-list.image-replacement li.amex {
+  background-position: 0 0;
+}
+ul.cc-vendors-list.image-replacement li.discover {
+  background-position: 0 -50px;
+}
+ul.cc-vendors-list.image-replacement li.mastercard {
+  background-position: 0 -100px;
+}
+ul.cc-vendors-list.image-replacement li.visa {
+  background-position: 0 -150px;
+}

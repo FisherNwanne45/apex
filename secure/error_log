@@ -1,0 +1,132 @@
+[23-Jul-2023 16:33:12 America/New_York] PHP Warning:  Undefined array key "site" in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 25
+[23-Jul-2023 16:33:12 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php:28
+Stack trace:
+#0 /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 28
+[23-Jul-2023 16:35:08 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php:27
+Stack trace:
+#0 /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 27
+[23-Jul-2023 16:36:04 America/New_York] PHP Warning:  Undefined variable $user_hom in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 26
+[23-Jul-2023 16:36:04 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function runQuery() on null in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 26
+[23-Jul-2023 16:37:05 America/New_York] PHP Warning:  Undefined array key "euVATrate" in /home/sirajsmo/atlanticpremierplc.com/en/enter/geo/geoplugin.class.php on line 104
+[23-Jul-2023 16:37:05 America/New_York] PHP Warning:  Undefined variable $description in /home/sirajsmo/atlanticpremierplc.com/en/enter/header.php on line 12
+[23-Jul-2023 16:37:05 America/New_York] PHP Warning:  Undefined variable $rowp in /home/sirajsmo/atlanticpremierplc.com/en/enter/header.php on line 16
+[23-Jul-2023 16:37:05 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/sirajsmo/atlanticpremierplc.com/en/enter/header.php on line 16
+[23-Jul-2023 16:37:05 America/New_York] PHP Warning:  Undefined variable $accounttype in /home/sirajsmo/atlanticpremierplc.com/en/enter/header.php on line 362
+[23-Jul-2023 16:37:05 America/New_York] PHP Warning:  Undefined variable $rowp in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 43
+[23-Jul-2023 16:37:05 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 43
+[23-Jul-2023 16:37:05 America/New_York] PHP Warning:  Undefined array key "uname" in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 72
+[23-Jul-2023 16:37:05 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php:72
+Stack trace:
+#0 /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php(72): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 72
+[23-Jul-2023 16:40:17 America/New_York] PHP Warning:  Undefined array key "site" in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 25
+[23-Jul-2023 16:40:17 America/New_York] PHP Warning:  Undefined array key "euVATrate" in /home/sirajsmo/atlanticpremierplc.com/en/enter/geo/geoplugin.class.php on line 104
+[23-Jul-2023 16:40:17 America/New_York] PHP Warning:  Undefined variable $description in /home/sirajsmo/atlanticpremierplc.com/en/enter/header.php on line 12
+[23-Jul-2023 16:40:17 America/New_York] PHP Warning:  Undefined variable $accounttype in /home/sirajsmo/atlanticpremierplc.com/en/enter/header.php on line 362
+[23-Jul-2023 16:40:17 America/New_York] PHP Warning:  Undefined array key "uname" in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 82
+[23-Jul-2023 16:40:17 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php:82
+Stack trace:
+#0 /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php(82): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 82
+[23-Jul-2023 16:41:58 America/New_York] PHP Warning:  Undefined variable $rows in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 25
+[23-Jul-2023 16:41:58 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 25
+[23-Jul-2023 16:41:58 America/New_York] PHP Warning:  Undefined array key "euVATrate" in /home/sirajsmo/atlanticpremierplc.com/en/enter/geo/geoplugin.class.php on line 104
+[23-Jul-2023 16:41:58 America/New_York] PHP Warning:  Undefined variable $description in /home/sirajsmo/atlanticpremierplc.com/en/enter/header.php on line 12
+[23-Jul-2023 16:41:58 America/New_York] PHP Warning:  Undefined variable $accounttype in /home/sirajsmo/atlanticpremierplc.com/en/enter/header.php on line 362
+[23-Jul-2023 16:41:58 America/New_York] PHP Warning:  Undefined array key "uname" in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 82
+[23-Jul-2023 16:41:58 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php:82
+Stack trace:
+#0 /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php(82): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 82
+[23-Jul-2023 16:43:11 America/New_York] PHP Warning:  Undefined array key "site" in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 25
+[23-Jul-2023 16:43:11 America/New_York] PHP Warning:  Undefined array key "euVATrate" in /home/sirajsmo/atlanticpremierplc.com/en/enter/geo/geoplugin.class.php on line 104
+[23-Jul-2023 16:43:11 America/New_York] PHP Warning:  Undefined variable $description in /home/sirajsmo/atlanticpremierplc.com/en/enter/header.php on line 12
+[23-Jul-2023 16:43:11 America/New_York] PHP Warning:  Undefined variable $accounttype in /home/sirajsmo/atlanticpremierplc.com/en/enter/header.php on line 362
+[23-Jul-2023 16:43:11 America/New_York] PHP Warning:  Undefined array key "uname" in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 82
+[23-Jul-2023 16:43:11 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php:82
+Stack trace:
+#0 /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php(82): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 82
+[23-Jul-2023 16:44:18 America/New_York] PHP Warning:  Undefined array key "site" in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 25
+[23-Jul-2023 16:44:18 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php:28
+Stack trace:
+#0 /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 28
+[23-Jul-2023 16:47:27 America/New_York] PHP Warning:  Undefined array key "site" in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 26
+[23-Jul-2023 16:47:27 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php:29
+Stack trace:
+#0 /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 29
+[23-Jul-2023 16:47:57 America/New_York] PHP Warning:  Undefined array key "site" in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 25
+[23-Jul-2023 16:47:57 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php:28
+Stack trace:
+#0 /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 28
+[23-Jul-2023 16:49:28 America/New_York] PHP Warning:  Undefined array key "site" in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 25
+[23-Jul-2023 16:49:28 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php:28
+Stack trace:
+#0 /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sirajsmo/atlanticpremierplc.com/en/enter/inbox.php on line 28
+[23-Jul-2023 16:55:14 America/New_York] PHP Notice:  Undefined variable: code in /home/sirajsmo/atlanticpremierplc.com/en/enter/login.php on line 191
+[24-Jul-2023 00:18:15 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/enter/login.php on line 191
+[29-Jul-2023 16:57:33 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[31-Jul-2023 13:09:21 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[31-Jul-2023 13:09:56 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/truspyyj/public_html/en/enter/login.php on line 34
+[31-Jul-2023 13:14:10 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[31-Jul-2023 13:47:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/truspyyj/public_html/en/enter/login.php on line 34
+[31-Jul-2023 14:34:05 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[31-Jul-2023 18:21:08 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[01-Aug-2023 14:16:57 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[01-Aug-2023 15:50:39 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[02-Aug-2023 22:50:47 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[02-Aug-2023 23:08:41 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[03-Aug-2023 06:53:57 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[04-Aug-2023 14:58:07 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[04-Aug-2023 15:10:57 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[04-Aug-2023 15:11:21 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[04-Aug-2023 15:11:47 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[04-Aug-2023 15:12:29 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[04-Aug-2023 15:12:49 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[04-Aug-2023 15:12:59 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[04-Aug-2023 15:24:03 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[04-Aug-2023 15:24:18 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[04-Aug-2023 15:31:53 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[04-Aug-2023 15:35:12 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[04-Aug-2023 16:37:21 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[04-Aug-2023 19:16:27 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[04-Aug-2023 19:16:29 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[04-Aug-2023 19:16:38 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[04-Aug-2023 19:19:38 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[04-Aug-2023 19:19:40 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[04-Aug-2023 21:17:25 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[04-Aug-2023 21:17:26 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[04-Aug-2023 21:17:36 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[05-Aug-2023 07:23:14 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[05-Aug-2023 07:46:41 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[05-Aug-2023 07:47:00 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[05-Aug-2023 08:59:57 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[06-Aug-2023 21:05:05 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[06-Aug-2023 21:19:58 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[06-Aug-2023 21:30:52 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[06-Aug-2023 21:32:34 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[06-Aug-2023 21:32:42 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[06-Aug-2023 21:33:09 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[07-Aug-2023 13:16:18 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[07-Aug-2023 13:21:49 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[07-Aug-2023 13:21:52 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
+[08-Aug-2023 22:24:08 UTC] PHP Notice:  Undefined variable: code in /home/truspyyj/public_html/en/enter/login.php on line 212
