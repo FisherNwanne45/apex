@@ -3,12 +3,12 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "fisherbk";
-$smtphost ="server145.web-hosting.com";
-$user = "noreply@site.com";
-$pass ="ALLstars_099";
-$from = 'info@site.com';
-$frname ="International Credit Union Bank";
-$reply = "info@site.com";
+$smtphost ="smtp.hostinger.com";
+$user = "noreply@atlasfcb.com";
+$pass ="STEP2_fresh";
+$from = 'info@atlasfcb.com';
+$frname ="Atlas Financial Bank";
+$reply = "info@atlasfcb.com";
 
 
 	// Create connection
